@@ -35,12 +35,24 @@
     <Compile Include="DjangoWebProject\settings.py" />
     <Compile Include="DjangoWebProject\urls.py" />
     <Compile Include="DjangoWebProject\wsgi.py" />
+    <Compile Include="SDIHA\admin.py" />
+    <Compile Include="SDIHA\apps.py" />
+    <Compile Include="SDIHA\migrations\__init__.py" />
+    <Compile Include="SDIHA\models.py" />
+    <Compile Include="SDIHA\tests.py" />
+    <Compile Include="SDIHA\views.py" />
+    <Compile Include="SDIHA\__init__.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="requirements.txt" />
+    <Content Include="SDIHA\templates\SDIHA\index.html" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DjangoWebProject\" />
+    <Folder Include="SDIHA\" />
+    <Folder Include="SDIHA\migrations\" />
+    <Folder Include="SDIHA\templates\" />
+    <Folder Include="SDIHA\templates\SDIHA\" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
